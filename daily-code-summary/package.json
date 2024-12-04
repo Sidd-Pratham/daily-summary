@@ -1,0 +1,21 @@
+{
+  "name": "daily-code-summary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "daily-summary": "./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "chalk": "^4.1.2",
+    "commander": "^12.1.0",
+    "simple-git": "^3.27.0"
+  }
+}
